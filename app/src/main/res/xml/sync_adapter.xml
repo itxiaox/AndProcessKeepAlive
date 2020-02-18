@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sync-adapter
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accountType="com.itxiaox.andprocesskeepalive.account"
+    android:allowParallelSyncs = "false"
+    android:userVisible = "false"
+    android:isAlwaysSyncable = "true"
+    android:contentAuthority="com.itxiaox.andprocesskeepalive.provider"
+    />
+
+<!--android:allowParabllelSyncs: 是否支持多账户同步-->
